@@ -16,21 +16,6 @@ This project is a simple shopping cart system that dynamically loads products fr
 This project fetches product data from the following API:
 [https://mdn.github.io/learning-area/javascript/apis/fetching-data/can-store/products.json](https://mdn.github.io/learning-area/javascript/apis/fetching-data/can-store/products.json)
 
-## 📜 Instructions
-
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/your-username/shopping-cart.git
-   ```
-2. Navigate to the project folder:
-   ```sh
-   cd shopping-cart
-   ```
-3. Open `index.html` in your browser or use Live Server in VS Code.
-4. Click "Add to Cart" to add an item.
-5. The shopping cart updates dynamically.
-6. Click "Remove" to delete an item completely from the cart.
-
 ## 🛠 Technologies Used
 
 - HTML
