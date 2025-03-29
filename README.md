@@ -8,7 +8,7 @@ This project is a simple shopping cart system that dynamically loads products fr
 - Displays products as cards with images, names, prices, and an "Add to Cart" button.
 - Allows users to add items to their cart.
 - Increases item quantity instead of adding duplicate entries.
-- Enables users to remove items entirely from the cart.
+- Enables users to remove items en   tirely from the cart.
 - Deployed using GitHub Pages.
 
 ## 🔗 API Endpoint
@@ -45,10 +45,10 @@ This project is deployed using GitHub Pages. You can view the live version here:
 
 ## 📷 Screenshots
 
-![Product List](./screenshots/product-list.png)
+![Product List](./images/screenshots/product-list.png)
 *Example of the product list page.*
 
-![Shopping Cart](./screenshots/shopping-cart.png)
+![Shopping Cart](./images//screenshots/shopping-cart.png)
 *Example of the shopping cart in action.*
 
 ## 📜 License
