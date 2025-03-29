@@ -26,7 +26,7 @@ This project fetches product data from the following API:
 ## 📦 Deployment
 
 This project is deployed using GitHub Pages. You can view the live version here:
-[Live Demo](https://your-username.github.io/shopping-cart/)
+[Live Demo](https://duk5010.github.io/Exercise-21-WebDev-Grocery-Shopping-Cart/)
 
 ## 📷 Screenshots
 
