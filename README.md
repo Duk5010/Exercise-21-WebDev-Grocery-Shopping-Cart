@@ -50,6 +50,3 @@ This project is deployed using GitHub Pages. You can view the live version here:
 
 ![Shopping Cart](./images//screenshots/shopping-cart.png)
 *Example of the shopping cart in action.*
-
----
-
