@@ -51,14 +51,5 @@ This project is deployed using GitHub Pages. You can view the live version here:
 ![Shopping Cart](./images//screenshots/shopping-cart.png)
 *Example of the shopping cart in action.*
 
-## 📜 License
-
-This project is open-source and available under the [MIT License](LICENSE).
-
-## ✨ Contributing
-
-Feel free to fork this repository and submit a pull request if you have any improvements or feature suggestions!
-
 ---
 
-Happy coding! 🎉
