@@ -30,9 +30,9 @@ This project is deployed using GitHub Pages. You can view the live version here:
 
 ## 📷 Screenshots
 
-![Product List](./screenshots/product-list.png)
+![Product List](./images/screenshots/product-list.png)
 *Example of the product list page.*
 
-![Shopping Cart](./screenshots/shopping-cart.png)
+![Shopping Cart](./images/screenshots/shopping-cart.png)
 *Example of the shopping cart in action.*
 
