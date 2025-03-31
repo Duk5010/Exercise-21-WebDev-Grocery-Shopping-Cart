@@ -1,37 +1,42 @@
-# 🛒 Simple Shopping Cart
+# GIPHY API Integration
 
-This project is a simple shopping cart system that dynamically loads products from an API and allows users to add and remove items from their cart.
+## Overview
+This project integrates the GIPHY API to fetch and display GIFs based on user input. The API allows access to trending GIFs, search functionality, and sticker collections.
 
-## 🚀 Features
+## Getting Started
+### 1. Obtain an API Key
+1. Go to [GIPHY Developers](https://developers.giphy.com/)
+2. Log in or sign up
+3. Create a new API key under the 'Create an App' section
 
-- Fetches product data from an external API.
-- Displays products as cards with images, names, prices, and an "Add to Cart" button.
-- Allows users to add items to their cart.
-- Increases item quantity instead of adding duplicate entries.
-- Enables users to remove items en   tirely from the cart.
-- Deployed using GitHub Pages.
+### 2. Make an API Request
+#### Example in JavaScript (Fetch Trending GIFs)
+```js
+const apiKey = 'YOUR_API_KEY';
+const url = `https://api.giphy.com/v1/gifs/trending?api_key=${apiKey}&limit=10`;
 
-## 🔗 API Endpoint
+fetch(url)
+  .then(response => response.json())
+  .then(data => console.log(data))
+  .catch(error => console.error('Error fetching data:', error));
+```
 
-This project fetches product data from the following API:
-[https://mdn.github.io/learning-area/javascript/apis/fetching-data/can-store/products.json](https://mdn.github.io/learning-area/javascript/apis/fetching-data/can-store/products.json)
 
-## 🛠 Technologies Used
+## Features
+- Search for GIFs by keyword
+- Fetch trending GIFs
+- Display GIFs in a web application
+- Use stickers and animated emojis
 
-- HTML
-- CSS
-- JavaScript (Fetch API)
-- GitHub Pages (for deployment)
-
-## 📦 Deployment
-
+## Deployment
 This project is deployed using GitHub Pages. You can view the live version here:
-[Live Demo](https://duk5010.github.io/Exercise-21-WebDev-Grocery-Shopping-Cart/)
+[Live Demo]()
 
 ## 📷 Screenshots
 
 ![Product List](./images/screenshots/product-list.png)
 *Example of the product list page.*
 
-![Shopping Cart](./images//screenshots/shopping-cart.png)
+![Shopping Cart](./images/screenshots/shopping-cart.png)
 *Example of the shopping cart in action.*
+
